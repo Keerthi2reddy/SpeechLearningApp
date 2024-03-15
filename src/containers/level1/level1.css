@@ -1,0 +1,71 @@
+.level1,.demo{
+    justify-content: center;
+    display: grid;
+    align-items: center;
+    background-color: #fcfcfc;
+    border: 1px solid #a6a4a4;
+    border-radius: 20px;
+    padding: 3%;
+    margin: 1%;
+}
+.level1 .next{
+    margin: 1%;
+    padding: 5%;
+    font-size: 1em;
+    border-radius: 10px;
+    border: 1px;
+    color: white;
+    width: fit-content;
+    background-color: #7c94f3;
+    cursor: pointer;
+}
+
+.level1 .submit{
+    margin: 1%;
+    padding: 5%;
+    font-size: 1em;
+    border-radius: 10px;
+    border: 1px;
+    width: fit-content;
+    color: white;
+    background-color: #6382ff;
+    cursor: pointer;
+}
+
+
+.demo button{
+    margin: 1%;
+    padding: 3%;
+    border-radius: 10px;
+    border: 1px;
+    width: fit-content;
+    color: white;
+    background-color: #b663ff;
+    cursor: pointer;
+}
+.container {
+    display: grid;
+    flex-direction: row;
+    justify-content: center; 
+    align-items: center; 
+    height: 90vh; 
+    padding: 1%;
+}
+.sidebar {
+    flex: 1; /* Take up remaining space */
+    background-color: rgb(243, 250, 255);
+    padding: 20px;
+    width: fit-content;
+  }
+  
+  .phoneme-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr)); /* Adjust the width of each grid item as needed */
+    grid-gap: 10px; /* Adjust the gap between grid items as needed */
+  }
+  
+  .phoneme-grid button {
+    width: fit-content;
+
+  }
+  

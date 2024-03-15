@@ -1,0 +1,12 @@
+.progress{
+    width: 100%;
+    margin:1%;
+    justify-content: center;
+    position: relative;
+    display: flex;
+}
+.progressbar{
+    width: 10%;
+    margin:1%;
+    padding: 1%;
+}

@@ -1,0 +1,32 @@
+.phoneme-container{
+    padding: 5px;
+    margin: 5px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.phoneme-container h2{
+    background-color: #616d89;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 2px;
+    border: none;
+    font-size: 40px;
+    border-radius: 12px;
+    font-weight: bold;
+    width: fit-content;
+    justify-content: center;
+}
+.phoneme-container audio{
+    margin: 5px;
+    padding: 5px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+}
+
+.justify-center{
+    justify-content: center;
+    display: flex;
+}
