@@ -3,14 +3,14 @@ import Recorder from "../recorder-controls/recorder";
 import Recordings from "../recordings-list/recordings";
 import useRecorder from "../../hooks/useRecorder";
 
-export default function Speechrecorder() {
+export default function Speechrecorder({phonemedata}) {
     const { recorderState, ...handlers } = useRecorder();
     const { audio } = recorderState;
 
     return (
         <div className="spr">
           <Recorder recorderState={recorderState} handlers={handlers} />
-          <Recordings audio={audio} />
+          <Recordings audio={audio} phonemeName={phonemedata.name} />
           </div>
       )
 }

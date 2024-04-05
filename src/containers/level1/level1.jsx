@@ -3,40 +3,37 @@ import Phoneme from '../../components/phenome/phenome';
 import ProgressComponent from '../../components/progress/progress';
 import Speechrecorder from '../../components/speech-recorder/Speechrecorder';
 import './level1.css';
+import useRecordingsList from "../../hooks/use-recordings-list";
 
+import useRecorder from "../../hooks/useRecorder";
 const phonemesData = [
-  { name: '/i/', audiofile: 'oo.wav' },
-  { name: '/e/', audiofile: 'oo.wav' },
-  { name: '/ɛ/', audiofile: 'ay.wav' },
-  { name: '/ӕː/', audiofile: 'ay.wav' },
-  { name: '/u/', audiofile: 'oo.wav' },
-  { name: '/o/', audiofile: 'oo.wav' },
-  { name: '/ɐ/', audiofile: 'ay.wav' },
-  { name: '/pɐ/', audiofile: 'ay.wav' },
-  { name: '/bɐ/', audiofile: 'ay.wav' },
-  { name: '/tɐ/', audiofile: 'oo.wav' },
-  { name: '/dɐ/', audiofile: 'oo.wav' },
-  { name: '/ʈɐ/', audiofile: 'oo.wav' },
-  { name: '/ɖɐ/', audiofile: 'oo.wav' },
-  { name: '/kɐ/', audiofile: 'oo.wav' },
-  { name: '/gɐ/', audiofile: 'oo.wav' },
-  { name: '/mɐ/', audiofile: 'oo.wav' },
-  { name: '/nɐ/', audiofile: 'oo.wav' },
-  { name: '/ɳɐ/', audiofile: 'oo.wav' },
-  { name: '/rɐ/', audiofile: 'oo.wav' },
-  { name: '/fɐ/', audiofile: 'oo.wav' },
-  { name: '/sɐ/', audiofile: 'oo.wav' },
-  { name: '/ʂɐ/', audiofile: 'oo.wav' },
-  { name: '/ʃɐ/', audiofile: 'oo.wav' },
-  { name: '/hɐ/', audiofile: 'oo.wav' },
-  { name: '/ʦɐ/', audiofile: 'oo.wav' },
-  { name: '/ʣɐ/', audiofile: 'oo.wav' },
-  { name: '/ʧɐ', audiofile: 'oo.wav' },
-  { name: '/ʤɐ/', audiofile: 'oo.wav' },
-  { name: '/ʋɐ/', audiofile: 'oo.wav' },
-  { name: '/jɐ/', audiofile: 'oo.wav' },
-  { name: 'lɐ/', audiofile: 'oo.wav' },
-  { name: '/ɭɐ/', audiofile: 'oo.wav' },
+  
+{ name: '/i/', audiofile: 'ph_i_short.mp3' },
+{ name: '/e/', audiofile: 'ph_e_short.mp3' },
+{ name: '/ɐ/', audiofile: 'ph_u_short.mp3' },
+{ name: '/ӕː/', audiofile: 'ph_a_long.mp3' },
+{ name: '/ie/', audiofile: 'ph_i_long.mp3' },
+{ name: '/oe/', audiofile: 'ph_o_long.mp3' },
+{ name: '/ue/', audiofile: 'ph_u_long.mp3' },
+{ name: '/pɐ/', audiofile: 'p__.mp3' },
+{ name: '/bɐ/', audiofile: 'b__.mp3' },
+{ name: '/tɐ/', audiofile: 't__.mp3' },
+{ name: '/dɐ/', audiofile: 'd__.mp3' },
+{ name: '/ʈɐ/', audiofile: 't__.mp3' },
+{ name: '/ɖɐ/', audiofile: 'd__.mp3' },
+{ name: '/kɐ/', audiofile: 'k__.mp3' },
+{ name: '/gɐ/', audiofile: 'g__.mp3' },
+{ name: '/mɐ/', audiofile: 'm__.mp3' },
+{ name: '/nɐ/', audiofile: 'n__.mp3' },
+{ name: '/rɐ/', audiofile: 'r__.mp3' },
+{ name: '/fɐ/', audiofile: 'f__.mp3' },
+{ name: '/sɐ/', audiofile: 's__.mp3' },
+{ name: '/ʃɐ/', audiofile: 'ph_sh.mp3' },
+{ name: '/hɐ/', audiofile: 'h__.mp3' },
+{ name: '/ʣɐ/', audiofile: 'ph_g_soft.mp3' },
+{ name: '/ʋɐ/', audiofile: 'v__.mp3' },
+{ name: '/jɐ/', audiofile: 'j__.mp3' },
+{ name: 'lɐ/', audiofile: 'l__.mp3' },
 
 ];
 function Level1() {
@@ -62,10 +59,11 @@ function Level1() {
   const submit = () => {
     setCurrentPhonemeIndex(totalPhonemes);
   };
-
+  
   return (
     <div className='container'>
       <div className='layout'><div className='demo'>
+        <h2>Task:</h2>
         <p> You need to repeat the phoneme shown thrice and record it</p>
         <span> Here is a demo video<button>Demo</button></span>
         {/* Add the demo video file here as a modal*/}
@@ -75,12 +73,17 @@ function Level1() {
             {currentPhonemeIndex < totalPhonemes && (
               <div>
                 <Phoneme phoneme={phonemesData[currentPhonemeIndex]} />
-                <Speechrecorder />
+                <Speechrecorder phonemedata={phonemesData[currentPhonemeIndex]} />
               </div>
             )}
             {currentPhonemeIndex < totalPhonemes - 1 && (
               <button className='next' onClick={handleNextClick}>
                 Next
+              </button>
+            )}
+            {currentPhonemeIndex < totalPhonemes  && (
+              <button className='prev' onClick={handlePrevClick}>
+                prev
               </button>
             )}
             {currentPhonemeIndex === totalPhonemes - 1 && (

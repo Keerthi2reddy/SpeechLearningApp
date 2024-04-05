@@ -3,6 +3,7 @@
   display: flex;
   justify-content: space-evenly;
   padding: 0.5rem;
+  font-size:large ;
 }
 
 .recorder-display {
@@ -23,12 +24,11 @@
 .recording-indicator {
   width: 10px;
   height: 10px;
-  margin-right: 0.5rem;
+  margin-top: 7px;
   border-radius: 50%;
   background-color: #099fff;
-  animation-name: animated-block;
-  animation-duration: 2s;
-  animation-iteration-count: infinite;
+  justify-content: center;
+  align-items: center;
 }
 
 .recording-time {
@@ -66,8 +66,12 @@
 
 .start-button-container {
   width: 15%;
-  display: grid;
-  place-content: center;
+  display: flex;
+}
+.recording{
+  display: flex;
+  padding: 2%;
+  margin-right: 2%;
 }
 
 .start-button:hover {
@@ -77,6 +81,11 @@
 .save-button:hover {
   color: #4357bc;
 }
-.start-button {
-  width: 10%;
+
+.pause-button{
+  border: none;
+  border-radius: 50%;
+  background-color: #fff;
+  cursor: pointer;
+  color: #959595;
 }
