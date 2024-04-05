@@ -15,25 +15,25 @@ const phonemesData = [
 { name: '/ie/', audiofile: 'ph_i_long.mp3' },
 { name: '/oe/', audiofile: 'ph_o_long.mp3' },
 { name: '/ue/', audiofile: 'ph_u_long.mp3' },
-{ name: '/pɐ/', audiofile: 'p__.mp3' },
-{ name: '/bɐ/', audiofile: 'b__.mp3' },
-{ name: '/tɐ/', audiofile: 't__.mp3' },
-{ name: '/dɐ/', audiofile: 'd__.mp3' },
-{ name: '/ʈɐ/', audiofile: 't__.mp3' },
-{ name: '/ɖɐ/', audiofile: 'd__.mp3' },
-{ name: '/kɐ/', audiofile: 'k__.mp3' },
-{ name: '/gɐ/', audiofile: 'g__.mp3' },
-{ name: '/mɐ/', audiofile: 'm__.mp3' },
-{ name: '/nɐ/', audiofile: 'n__.mp3' },
-{ name: '/rɐ/', audiofile: 'r__.mp3' },
-{ name: '/fɐ/', audiofile: 'f__.mp3' },
-{ name: '/sɐ/', audiofile: 's__.mp3' },
-{ name: '/ʃɐ/', audiofile: 'ph_sh.mp3' },
-{ name: '/hɐ/', audiofile: 'h__.mp3' },
-{ name: '/ʣɐ/', audiofile: 'ph_g_soft.mp3' },
-{ name: '/ʋɐ/', audiofile: 'v__.mp3' },
-{ name: '/jɐ/', audiofile: 'j__.mp3' },
-{ name: 'lɐ/', audiofile: 'l__.mp3' },
+{ name: '/p/', audiofile: 'p__.mp3' },
+{ name: '/b/', audiofile: 'b__.mp3' },
+{ name: '/t/', audiofile: 't__.mp3' },
+{ name: '/d/', audiofile: 'd__.mp3' },
+{ name: '/ʈ/', audiofile: 't__.mp3' },
+{ name: '/ɖ/', audiofile: 'd__.mp3' },
+{ name: '/k/', audiofile: 'k__.mp3' },
+{ name: '/g/', audiofile: 'g__.mp3' },
+{ name: '/m/', audiofile: 'm__.mp3' },
+{ name: '/n/', audiofile: 'n__.mp3' },
+{ name: '/r/', audiofile: 'r__.mp3' },
+{ name: '/f/', audiofile: 'f__.mp3' },
+{ name: '/s/', audiofile: 's__.mp3' },
+{ name: '/ʃ/', audiofile: 'ph_sh.mp3' },
+{ name: '/h/', audiofile: 'h__.mp3' },
+{ name: '/ʣ/', audiofile: 'ph_g_soft.mp3' },
+{ name: '/ʋ/', audiofile: 'v__.mp3' },
+{ name: '/j/', audiofile: 'j__.mp3' },
+{ name: '/l/', audiofile: 'l__.mp3' },
 
 ];
 function Level1() {
@@ -76,16 +76,17 @@ function Level1() {
                 <Speechrecorder phonemedata={phonemesData[currentPhonemeIndex]} />
               </div>
             )}
+                        {currentPhonemeIndex < totalPhonemes  && (
+              <button className='prev' onClick={handlePrevClick}>
+                prev
+              </button>
+            )}
             {currentPhonemeIndex < totalPhonemes - 1 && (
               <button className='next' onClick={handleNextClick}>
                 Next
               </button>
             )}
-            {currentPhonemeIndex < totalPhonemes  && (
-              <button className='prev' onClick={handlePrevClick}>
-                prev
-              </button>
-            )}
+
             {currentPhonemeIndex === totalPhonemes - 1 && (
               <button className='submit' onClick={submit}>
                 Submit
