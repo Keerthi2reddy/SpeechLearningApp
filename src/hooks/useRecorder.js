@@ -16,16 +16,16 @@ export default function useRecorder() {
   const [recorderState, setRecorderState] = useState(initialState);
 
   useEffect(() => {
-    const MAX_RECORDER_TIME = 5;
+    const MAX_RECORDER_TIME = 15;
     let recordingInterval = null;
 
     if (recorderState.initRecording && !recorderState.paused) { // Check if recording is not paused
       recordingInterval = setInterval(() => {
         setRecorderState((prevState) => {
           if (
-            prevState.recordingMinutes === MAX_RECORDER_TIME &&
-            prevState.recordingSeconds === 0
+            prevState.recordingSeconds === MAX_RECORDER_TIME
           ) {
+            saveRecording(recorderState.mediaRecorder)
             clearInterval(recordingInterval);
             return prevState;
           }
@@ -110,7 +110,7 @@ export default function useRecorder() {
             paused: !prevState.paused,
           }))
         }
-      }, 1000); // 5 seconds
+      }, 5000); // 5 seconds
     }
 
     // Clean up the timeout when component unmounts or paused state changes
@@ -123,6 +123,7 @@ export default function useRecorder() {
     if (!recorderState.paused) {
       
       // Start the timeout only if the recording is not already paused
+      
       pauseTimeout = setTimeout(() => {
         console.log("paused");
         if (!recorderState.paused) {

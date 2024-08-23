@@ -4,36 +4,34 @@ import ProgressComponent from '../../components/progress/progress';
 import Speechrecorder from '../../components/speech-recorder/Speechrecorder';
 import './level1.css';
 import useRecordingsList from "../../hooks/use-recordings-list";
-
 import useRecorder from "../../hooks/useRecorder";
 const phonemesData = [
-  
-{ name: '/i/', audiofile: 'ph_i_short.mp3' },
-{ name: '/e/', audiofile: 'ph_e_short.mp3' },
-{ name: '/ɐ/', audiofile: 'ph_u_short.mp3' },
-{ name: '/ӕː/', audiofile: 'ph_a_long.mp3' },
-{ name: '/ie/', audiofile: 'ph_i_long.mp3' },
-{ name: '/oe/', audiofile: 'ph_o_long.mp3' },
-{ name: '/ue/', audiofile: 'ph_u_long.mp3' },
-{ name: '/p/', audiofile: 'p__.mp3' },
-{ name: '/b/', audiofile: 'b__.mp3' },
-{ name: '/t/', audiofile: 't__.mp3' },
-{ name: '/d/', audiofile: 'd__.mp3' },
-{ name: '/ʈ/', audiofile: 't__.mp3' },
-{ name: '/ɖ/', audiofile: 'd__.mp3' },
-{ name: '/k/', audiofile: 'k__.mp3' },
-{ name: '/g/', audiofile: 'g__.mp3' },
-{ name: '/m/', audiofile: 'm__.mp3' },
-{ name: '/n/', audiofile: 'n__.mp3' },
-{ name: '/r/', audiofile: 'r__.mp3' },
-{ name: '/f/', audiofile: 'f__.mp3' },
-{ name: '/s/', audiofile: 's__.mp3' },
-{ name: '/ʃ/', audiofile: 'ph_sh.mp3' },
-{ name: '/h/', audiofile: 'h__.mp3' },
-{ name: '/ʣ/', audiofile: 'ph_g_soft.mp3' },
-{ name: '/ʋ/', audiofile: 'v__.mp3' },
-{ name: '/j/', audiofile: 'j__.mp3' },
-{ name: '/l/', audiofile: 'l__.mp3' },
+{ name: '/i/', audiofile: '/phonetics/ph_i_short.mp3' },
+{ name: '/e/', audiofile: '/phonetics/ph_e_short.mp3' },
+{ name: '/ɐ/', audiofile: '/phonetics/ph_u_short.mp3' },
+{ name: '/ӕː/', audiofile: '/phonetics/ph_a_long.mp3' },
+{ name: '/ie/', audiofile: '/phonetics/ph_i_long.mp3' },
+// { name: '/oe/', audiofile: '/phonetics/ph_o_long.mp3' },
+// { name: '/ue/', audiofile: '/phonetics/ph_u_long.mp3' },
+{ name: '/p/', audiofile: '/phonetics/p__.mp3' },
+{ name: '/b/', audiofile: '/phonetics/b__.mp3' },
+{ name: '/t/', audiofile: '/phonetics/t__.mp3' },
+{ name: '/d/', audiofile: '/phonetics/d__.mp3' },
+// { name: '/ʈ/', audiofile: '/phonetics/t__.mp3' },
+// { name: '/ɖ/', audiofile: '/phonetics/d__.mp3' },
+{ name: '/k/', audiofile: '/phonetics/k__.mp3' },
+{ name: '/g/', audiofile: '/phonetics/g__.mp3' },
+{ name: '/m/', audiofile: '/phonetics/m__.mp3' },
+// { name: '/n/', audiofile: '/phonetics/n__.mp3' },
+{ name: '/r/', audiofile: '/phonetics/r__.mp3' },
+// { name: '/f/', audiofile: '/phonetics/f__.mp3' },
+{ name: '/s/', audiofile: '/phonetics/s__.mp3' },
+// { name: '/ʃ/', audiofile: '/phonetics/ph_sh.mp3' },
+{ name: '/h/', audiofile: '/phonetics/h__.mp3' },
+{ name: '/ʣ/', audiofile: '/phonetics/ph_g_soft.mp3' },
+// { name: '/ʋ/', audiofile: '/phonetics/v__.mp3' },
+// { name: '/j/', audiofile: '/phonetics/j__.mp3' },
+// { name: '/l/', audiofile: '/phonetics/l__.mp3' },
 
 ];
 function Level1() {
@@ -62,7 +60,8 @@ function Level1() {
   
   return (
     <div className='container'>
-      <div className='layout'><div className='demo'>
+      <div className='layout'>
+        <div className='demo'>
         <h2>Task:</h2>
         <p> You need to repeat the phoneme shown thrice and record it</p>
         <span> Here is a demo video<button>Demo</button></span>
@@ -73,7 +72,7 @@ function Level1() {
             {currentPhonemeIndex < totalPhonemes && (
               <div>
                 <Phoneme phoneme={phonemesData[currentPhonemeIndex]} />
-                <Speechrecorder phonemedata={phonemesData[currentPhonemeIndex]} />
+                <Speechrecorder phonemedata={phonemesData[currentPhonemeIndex]} level ={1}/>
               </div>
             )}
                         {currentPhonemeIndex < totalPhonemes  && (

@@ -12,7 +12,7 @@ const Phoneme = ({ phoneme }) => {
   useEffect(() => {
     const loadAudio = async () => {
       try {
-        const { default: audioFile } = await import(`../../audiofiles/${phoneme.audiofile}`);
+        const { default: audioFile } = await import(`../../audiofiles${phoneme.audiofile}`);
         console.log('Audio file loaded:', audioFile);
         setLoaded(true);
         

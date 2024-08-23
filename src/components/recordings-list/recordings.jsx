@@ -3,10 +3,11 @@ import { faTrashAlt, faExclamationCircle, faUpload } from "@fortawesome/free-sol
 import useRecordingsList from "../../hooks/use-recordings-list";
 import "./styles.css";
 
-export default function Recordings({ audio ,phonemeName}) {
+export default function Recordings({ audio ,phonemeName, LEVEL}) {
   const { recordings, deleteAudio } = useRecordingsList(audio);
-
-  const uploadAudio = async (audio, participantId, day, level) => {
+const ID = localStorage.getItem('participantId');
+console.log(LEVEL);
+  const uploadAudio = async (audio, participantId, day) => {
     try {
       // Fetch the resource from the Blob URL
       const response = await fetch(audio);
@@ -23,12 +24,13 @@ export default function Recordings({ audio ,phonemeName}) {
       // Create a link element to trigger the download
       const link = document.createElement('a');
       link.href = blobUrl;
-      link.download = `ID_${participantId}/level${level}/${phonemeName}.mp3`; // Specify the full path including the folder
+      link.download = `ID_${participantId}/level${LEVEL}/${phonemeName}.mp3`; // Specify the full path including the folder
       document.body.appendChild(link);
       link.click();
   
       // Clean up the blob URL
       window.URL.revokeObjectURL(blobUrl);
+     
   
       console.log('File downloaded successfully');
     } catch (error) {
@@ -49,7 +51,7 @@ export default function Recordings({ audio ,phonemeName}) {
                   <button
                     className="upload-button"
                     title="Upload this audio"
-                    onClick={() => uploadAudio(record.audio, 1, 1, 1)}
+                    onClick={() => uploadAudio(record.audio,ID, 1)}
                   >
                     <FontAwesomeIcon icon={faUpload} />
                   </button>
