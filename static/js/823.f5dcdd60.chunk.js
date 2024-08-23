@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktherapy_app=self.webpackChunktherapy_app||[]).push([[823],{823:(a,p,e)=>{a.exports=e.p+"static/media/04-arrogance.669c54b34805113558a6.wav"}}]);

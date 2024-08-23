@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktherapy_app=self.webpackChunktherapy_app||[]).push([[6640],{6640:(e,p,a)=>{e.exports=a.p+"static/media/26-fire.56d468b005ce512ff664.wav"}}]);

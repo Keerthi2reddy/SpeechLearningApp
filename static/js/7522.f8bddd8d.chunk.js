@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktherapy_app=self.webpackChunktherapy_app||[]).push([[7522],{7522:(a,p,e)=>{a.exports=e.p+"static/media/04-wrist_watch.df3510277a33b5c57d68.wav"}}]);

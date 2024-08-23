@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktherapy_app=self.webpackChunktherapy_app||[]).push([[6464],{6464:(a,e,p)=>{a.exports=p.p+"static/media/patta.006e7ade59dcb19eea10.wav"}}]);

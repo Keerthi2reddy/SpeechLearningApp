@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktherapy_app=self.webpackChunktherapy_app||[]).push([[9439],{9439:(e,a,p)=>{e.exports=p.p+"static/media/12-coffee.1a566ab8e39490be428b.wav"}}]);

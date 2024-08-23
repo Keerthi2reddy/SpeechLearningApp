@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktherapy_app=self.webpackChunktherapy_app||[]).push([[8060],{8060:(a,e,p)=>{a.exports=p.p+"static/media/15-desire.afb52d32ab6933ada181.wav"}}]);

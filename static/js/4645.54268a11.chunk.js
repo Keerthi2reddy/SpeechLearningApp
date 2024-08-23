@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktherapy_app=self.webpackChunktherapy_app||[]).push([[4645],{4645:(e,p,a)=>{e.exports=a.p+"static/media/21-tender_jellylike_kernel_of_palm_fruit.dccbf539369e01e8a17e.wav"}}]);

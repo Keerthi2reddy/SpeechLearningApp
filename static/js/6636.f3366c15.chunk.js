@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktherapy_app=self.webpackChunktherapy_app||[]).push([[6636],{6636:(p,a,e)=>{p.exports=e.p+"static/media/gooduma.035a06ffd81cdcd43626.mp3"}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktherapy_app=self.webpackChunktherapy_app||[]).push([[1782],{1782:(p,a,e)=>{p.exports=e.p+"static/media/05-pamphlet.b044d6a8fd832591d3d5.wav"}}]);

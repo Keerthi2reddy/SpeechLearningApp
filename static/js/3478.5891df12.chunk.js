@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktherapy_app=self.webpackChunktherapy_app||[]).push([[3478],{3478:(a,e,p)=>{a.exports=p.p+"static/media/01-tree_bark.5ba993b95876344b613b.wav"}}]);

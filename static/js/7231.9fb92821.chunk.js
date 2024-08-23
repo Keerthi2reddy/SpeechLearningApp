@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktherapy_app=self.webpackChunktherapy_app||[]).push([[7231],{7231:(p,a,e)=>{p.exports=e.p+"static/media/09-a_kind_of_food_preparation.cc674b8b88396e4d927e.wav"}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktherapy_app=self.webpackChunktherapy_app||[]).push([[6600],{6600:(a,p,e)=>{a.exports=e.p+"static/media/02-haystack.c735fa5fb475fc7d9591.wav"}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktherapy_app=self.webpackChunktherapy_app||[]).push([[9888],{9888:(a,p,e)=>{a.exports=e.p+"static/media/dannu.793a105ba15053a20bc1.wav"}}]);

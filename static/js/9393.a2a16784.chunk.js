@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktherapy_app=self.webpackChunktherapy_app||[]).push([[9393],{9393:(e,p,a)=>{e.exports=a.p+"static/media/19-leather.61e5ff2ff3f5bdbc624e.wav"}}]);

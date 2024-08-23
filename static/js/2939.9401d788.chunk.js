@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktherapy_app=self.webpackChunktherapy_app||[]).push([[2939],{2939:(a,e,p)=>{a.exports=p.p+"static/media/baata.9a99eb26cd3b6584eb2e.mp3"}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktherapy_app=self.webpackChunktherapy_app||[]).push([[2236],{2236:(e,p,a)=>{e.exports=a.p+"static/media/08-rent.b26f7c85e0fd37ea5e8d.wav"}}]);

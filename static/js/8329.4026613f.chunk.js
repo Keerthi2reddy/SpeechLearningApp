@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktherapy_app=self.webpackChunktherapy_app||[]).push([[8329],{8329:(e,p,a)=>{e.exports=a.p+"static/media/13-dried_ginger.51cc6cb86e5dd5f8acf9.wav"}}]);

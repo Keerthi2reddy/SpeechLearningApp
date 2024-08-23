@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktherapy_app=self.webpackChunktherapy_app||[]).push([[1250],{1250:(e,p,t)=>{e.exports=t.p+"static/media/13-it_is_a_tummy.31d6cfe0d16ae931b73c.txt"}}]);

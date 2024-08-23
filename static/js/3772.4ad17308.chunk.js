@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktherapy_app=self.webpackChunktherapy_app||[]).push([[3772],{3772:(e,p,a)=>{e.exports=a.p+"static/media/05-suffering.ceb78b39e7ebd4d4809a.wav"}}]);

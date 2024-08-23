@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktherapy_app=self.webpackChunktherapy_app||[]).push([[1045],{1045:(e,p,a)=>{e.exports=a.p+"static/media/01-in_future.ac91cc795f8cefde3511.wav"}}]);

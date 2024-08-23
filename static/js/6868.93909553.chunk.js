@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktherapy_app=self.webpackChunktherapy_app||[]).push([[6868],{6868:(e,p,a)=>{e.exports=a.p+"static/media/16-ghaTi-unit_of_24_minutes.815e0d8ff991590fe901.wav"}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktherapy_app=self.webpackChunktherapy_app||[]).push([[9492],{9492:(a,p,e)=>{a.exports=e.p+"static/media/12-valorous.4b4714c026c86c4802ad.wav"}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktherapy_app=self.webpackChunktherapy_app||[]).push([[4910],{4910:(e,a,p)=>{e.exports=p.p+"static/media/46-banyan_tree.dad152f8e5dc896fbc0e.wav"}}]);

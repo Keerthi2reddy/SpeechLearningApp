@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktherapy_app=self.webpackChunktherapy_app||[]).push([[6615],{6615:(p,a,e)=>{p.exports=e.p+"static/media/33-room.626178f1e3af8c7080d2.wav"}}]);

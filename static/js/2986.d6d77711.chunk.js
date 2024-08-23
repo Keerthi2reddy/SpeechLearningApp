@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktherapy_app=self.webpackChunktherapy_app||[]).push([[2986],{2986:(p,a,e)=>{p.exports=e.p+"static/media/18-tongs.92230753bf0a842ce1cd.wav"}}]);

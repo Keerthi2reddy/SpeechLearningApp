@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktherapy_app=self.webpackChunktherapy_app||[]).push([[6981],{6981:(p,a,e)=>{p.exports=e.p+"static/media/16-whip.063b2967551948996fab.wav"}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktherapy_app=self.webpackChunktherapy_app||[]).push([[5416],{5416:(a,p,e)=>{a.exports=e.p+"static/media/20-bag.ffc18326aad6b990c892.wav"}}]);

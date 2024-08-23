@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktherapy_app=self.webpackChunktherapy_app||[]).push([[567],{567:(a,p,e)=>{a.exports=e.p+"static/media/11-to_say.626da78bd513937f5f50.wav"}}]);

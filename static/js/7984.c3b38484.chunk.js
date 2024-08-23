@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktherapy_app=self.webpackChunktherapy_app||[]).push([[7984],{7984:(e,p,s)=>{e.exports=s.p+"static/media/20-expressing_surprise.e2dfb233125ad112cf39.wav"}}]);

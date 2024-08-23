@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktherapy_app=self.webpackChunktherapy_app||[]).push([[171],{171:(p,a,e)=>{p.exports=e.p+"static/media/pooratam.0e8e99263afd5d445a63.mp3"}}]);

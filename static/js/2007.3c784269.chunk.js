@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktherapy_app=self.webpackChunktherapy_app||[]).push([[2007],{2007:(e,p,a)=>{e.exports=a.p+"static/media/06-hero.e2dce6fe0648280cda26.wav"}}]);

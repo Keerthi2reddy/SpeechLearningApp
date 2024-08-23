@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktherapy_app=self.webpackChunktherapy_app||[]).push([[2748],{2748:(a,p,e)=>{a.exports=e.p+"static/media/18-bark.cc0ffa50429b88cde3a9.wav"}}]);

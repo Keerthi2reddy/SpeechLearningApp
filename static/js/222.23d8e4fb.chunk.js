@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktherapy_app=self.webpackChunktherapy_app||[]).push([[222],{222:(p,e,a)=>{p.exports=a.p+"static/media/vari.fcdb3374fd2ae01e48b8.mp3"}}]);

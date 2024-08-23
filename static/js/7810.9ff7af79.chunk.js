@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktherapy_app=self.webpackChunktherapy_app||[]).push([[7810],{5429:(p,a,e)=>{p.exports=e.p+"static/media/34-stick.dcad702637fe1192d130.wav"}}]);

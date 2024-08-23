@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktherapy_app=self.webpackChunktherapy_app||[]).push([[5515],{5515:(e,p,a)=>{e.exports=a.p+"static/media/29-tippet.e9e14c26e1e209763033.wav"}}]);

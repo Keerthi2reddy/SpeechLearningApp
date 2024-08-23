@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktherapy_app=self.webpackChunktherapy_app||[]).push([[3044],{3044:(a,p,e)=>{a.exports=e.p+"static/media/14-foolish_man.35aff56d4543f9c52e55.wav"}}]);

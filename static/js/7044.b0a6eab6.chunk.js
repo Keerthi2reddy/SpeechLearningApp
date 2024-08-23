@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktherapy_app=self.webpackChunktherapy_app||[]).push([[7044],{7044:(a,e,p)=>{a.exports=p.p+"static/media/thannu.7819e4a911c034e42f69.wav"}}]);

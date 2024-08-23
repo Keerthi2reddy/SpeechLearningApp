@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktherapy_app=self.webpackChunktherapy_app||[]).push([[9071],{9071:(a,p,e)=>{a.exports=e.p+"static/media/vaalu.49ff5c6314a7d8463310.wav"}}]);

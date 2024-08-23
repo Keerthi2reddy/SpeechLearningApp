@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktherapy_app=self.webpackChunktherapy_app||[]).push([[5603],{5603:(e,p,a)=>{e.exports=a.p+"static/media/30-poetic_meter.94a93aeb34f2443b5b09.wav"}}]);

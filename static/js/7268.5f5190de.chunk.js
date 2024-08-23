@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktherapy_app=self.webpackChunktherapy_app||[]).push([[7268],{7268:(e,p,a)=>{e.exports=a.p+"static/media/32-cow.958e163575c27e240ab5.wav"}}]);

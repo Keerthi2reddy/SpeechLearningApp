@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktherapy_app=self.webpackChunktherapy_app||[]).push([[5100],{5100:(a,e,p)=>{a.exports=p.p+"static/media/32-fame.ca503483827b62304e59.wav"}}]);

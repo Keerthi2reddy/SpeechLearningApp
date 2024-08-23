@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktherapy_app=self.webpackChunktherapy_app||[]).push([[9234],{9234:(e,a,p)=>{e.exports=p.p+"static/media/21-hemcloth_of_saree.47292153fae16a32932f.wav"}}]);

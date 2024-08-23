@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktherapy_app=self.webpackChunktherapy_app||[]).push([[8236],{8236:(p,a,e)=>{p.exports=e.p+"static/media/09-this_is_a_shop.bde8cd2127f5d9c8bdd7.wav"}}]);

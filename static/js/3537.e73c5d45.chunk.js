@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktherapy_app=self.webpackChunktherapy_app||[]).push([[3537],{3537:(a,p,e)=>{a.exports=e.p+"static/media/pattaa.318e83793874435ff0d1.wav"}}]);

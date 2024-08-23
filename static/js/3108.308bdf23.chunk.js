@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktherapy_app=self.webpackChunktherapy_app||[]).push([[3108],{3108:(a,p,e)=>{a.exports=e.p+"static/media/43-king.178b0f2c6c918f1a9a73.wav"}}]);

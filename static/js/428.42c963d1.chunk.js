@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktherapy_app=self.webpackChunktherapy_app||[]).push([[428],{428:(e,p,a)=>{e.exports=a.p+"static/media/10-post_wedding_gift.b6ec1eb113405d499326.wav"}}]);

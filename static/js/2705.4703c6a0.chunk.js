@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktherapy_app=self.webpackChunktherapy_app||[]).push([[2705],{2705:(e,p,a)=>{e.exports=a.p+"static/media/14-energy.450a0c249e8ce789e59d.wav"}}]);

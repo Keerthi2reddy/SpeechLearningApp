@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktherapy_app=self.webpackChunktherapy_app||[]).push([[7894],{7894:(a,p,e)=>{a.exports=e.p+"static/media/43-dream.1a02f87b503bf2764caf.wav"}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktherapy_app=self.webpackChunktherapy_app||[]).push([[6865],{6865:(p,e,a)=>{p.exports=a.p+"static/media/ippudu.70bc265135ea701ca6ee.mp3"}}]);

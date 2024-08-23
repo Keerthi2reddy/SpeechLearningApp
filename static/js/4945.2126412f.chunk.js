@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktherapy_app=self.webpackChunktherapy_app||[]).push([[4945],{4945:(a,e,p)=>{a.exports=p.p+"static/media/08-dent.7d3bc9fae84750a3a5bd.wav"}}]);

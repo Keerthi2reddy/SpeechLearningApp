@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktherapy_app=self.webpackChunktherapy_app||[]).push([[6745],{6745:(p,a,e)=>{p.exports=e.p+"static/media/22-dowry.b606ad0c40b4c203fbc5.wav"}}]);

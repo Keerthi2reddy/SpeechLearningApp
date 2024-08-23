@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktherapy_app=self.webpackChunktherapy_app||[]).push([[3183],{3183:(e,p,a)=>{e.exports=a.p+"static/media/23-fruit.e19064548b2193e9edc6.wav"}}]);

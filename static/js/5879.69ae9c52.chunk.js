@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktherapy_app=self.webpackChunktherapy_app||[]).push([[5879],{5879:(p,a,e)=>{p.exports=e.p+"static/media/03-wood_splinter.ed38fd3a84b015ca3885.wav"}}]);

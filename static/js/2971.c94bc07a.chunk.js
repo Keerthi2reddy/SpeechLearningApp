@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktherapy_app=self.webpackChunktherapy_app||[]).push([[2971],{2971:(e,p,a)=>{e.exports=a.p+"static/media/09-well-joined.e8cc081bf6342fd7deba.wav"}}]);

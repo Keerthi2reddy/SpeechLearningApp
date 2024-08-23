@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktherapy_app=self.webpackChunktherapy_app||[]).push([[5415],{5415:(a,p,e)=>{a.exports=e.p+"static/media/28-half_of_a_spherical_object.f825a32472cdab614400.wav"}}]);

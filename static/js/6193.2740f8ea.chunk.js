@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktherapy_app=self.webpackChunktherapy_app||[]).push([[6193],{6193:(a,p,e)=>{a.exports=e.p+"static/media/04-cattle_dung.85b27a89203c12645978.wav"}}]);

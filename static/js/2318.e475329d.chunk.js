@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktherapy_app=self.webpackChunktherapy_app||[]).push([[2318],{2318:(p,a,e)=>{p.exports=e.p+"static/media/25-pleasantness.2f6425623444d739b7b0.wav"}}]);

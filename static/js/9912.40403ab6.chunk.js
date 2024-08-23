@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktherapy_app=self.webpackChunktherapy_app||[]).push([[9912],{9912:(a,e,p)=>{a.exports=p.p+"static/media/45-shoulder_bag.e58c9faf2f23f5a190f5.wav"}}]);

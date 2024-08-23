@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktherapy_app=self.webpackChunktherapy_app||[]).push([[1494],{1494:(p,a,e)=>{p.exports=e.p+"static/media/kaburu.357eab3e898cc7279a01.mp3"}}]);

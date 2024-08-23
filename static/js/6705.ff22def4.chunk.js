@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktherapy_app=self.webpackChunktherapy_app||[]).push([[6705],{6705:(a,e,p)=>{a.exports=p.p+"static/media/03-agricultural_field.02f7e6af458b62a84423.wav"}}]);

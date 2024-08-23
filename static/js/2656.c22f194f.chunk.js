@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktherapy_app=self.webpackChunktherapy_app||[]).push([[2656],{2656:(e,a,p)=>{e.exports=p.p+"static/media/11-theorem.70a610e5658f5cac2fd7.wav"}}]);

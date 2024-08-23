@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktherapy_app=self.webpackChunktherapy_app||[]).push([[1208],{1208:(a,p,e)=>{a.exports=e.p+"static/media/05-FN6-meditation.0a24f1fdb4b35d21c299.wav"}}]);

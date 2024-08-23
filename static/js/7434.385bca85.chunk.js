@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktherapy_app=self.webpackChunktherapy_app||[]).push([[7434],{7434:(a,p,e)=>{a.exports=e.p+"static/media/47-wealth.d8b4dc3a09ff1a033b47.wav"}}]);

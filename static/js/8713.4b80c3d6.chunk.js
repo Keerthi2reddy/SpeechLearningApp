@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktherapy_app=self.webpackChunktherapy_app||[]).push([[8713],{8713:(a,p,e)=>{a.exports=e.p+"static/media/17-hay_stack.c735fa5fb475fc7d9591.wav"}}]);

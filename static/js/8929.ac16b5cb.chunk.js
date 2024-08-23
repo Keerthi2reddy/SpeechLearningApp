@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktherapy_app=self.webpackChunktherapy_app||[]).push([[8929],{8929:(a,p,e)=>{a.exports=e.p+"static/media/24-Varanasi-city_in_India.b9e6cdab18b02bd39cbc.wav"}}]);

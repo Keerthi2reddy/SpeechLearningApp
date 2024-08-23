@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktherapy_app=self.webpackChunktherapy_app||[]).push([[7090],{7090:(a,p,e)=>{a.exports=e.p+"static/media/batta.2852e534f2600879f62d.wav"}}]);

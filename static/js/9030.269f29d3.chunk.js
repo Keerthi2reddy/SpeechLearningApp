@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktherapy_app=self.webpackChunktherapy_app||[]).push([[9030],{9030:(e,p,a)=>{e.exports=a.p+"static/media/23-ochre_coloured.573ec3be7ff9ae9518d3.wav"}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktherapy_app=self.webpackChunktherapy_app||[]).push([[1626],{1626:(a,p,e)=>{a.exports=e.p+"static/media/06-FN6-middle.68a48d1a4ab3ccdc3098.wav"}}]);

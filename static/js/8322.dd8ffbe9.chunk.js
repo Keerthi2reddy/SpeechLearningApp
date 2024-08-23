@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktherapy_app=self.webpackChunktherapy_app||[]).push([[8322],{8322:(p,a,e)=>{p.exports=e.p+"static/media/egumathi.532cc52162fca9d10784.mp3"}}]);

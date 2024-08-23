@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktherapy_app=self.webpackChunktherapy_app||[]).push([[113],{113:(a,e,p)=>{a.exports=p.p+"static/media/44-mane.533ea2fa28dfe1aba9d5.wav"}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktherapy_app=self.webpackChunktherapy_app||[]).push([[73],{73:(e,a,p)=>{e.exports=p.p+"static/media/02-FN4-theorem.70a610e5658f5cac2fd7.wav"}}]);

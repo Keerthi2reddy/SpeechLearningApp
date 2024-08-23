@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktherapy_app=self.webpackChunktherapy_app||[]).push([[2492],{2492:(e,p,a)=>{e.exports=a.p+"static/media/01-to_swim.bbeb90f275fd078675e4.wav"}}]);

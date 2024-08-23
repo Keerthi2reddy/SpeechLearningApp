@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktherapy_app=self.webpackChunktherapy_app||[]).push([[367],{367:(a,e,p)=>{a.exports=p.p+"static/media/36-bow.a22364b443b2e68a7e65.wav"}}]);

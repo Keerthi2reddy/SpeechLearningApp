@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktherapy_app=self.webpackChunktherapy_app||[]).push([[9240],{9240:(p,e,a)=>{p.exports=a.p+"static/media/31-jingling_sound.7cb70bd4cc856e253f57.wav"}}]);

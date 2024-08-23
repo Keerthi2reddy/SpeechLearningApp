@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktherapy_app=self.webpackChunktherapy_app||[]).push([[3224],{3224:(e,a,p)=>{e.exports=p.p+"static/media/17-glittering_embroidery.395ae0bc5be3f72550a2.wav"}}]);

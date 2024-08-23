@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktherapy_app=self.webpackChunktherapy_app||[]).push([[7233],{7233:(a,p,e)=>{a.exports=e.p+"static/media/12-curry.48b4b5a3a98a6dc0f74e.wav"}}]);

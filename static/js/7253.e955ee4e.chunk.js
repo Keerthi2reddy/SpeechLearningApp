@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktherapy_app=self.webpackChunktherapy_app||[]).push([[7253],{7253:(p,a,e)=>{p.exports=e.p+"static/media/balam.dc2c7b6ac5201201efe4.mp3"}}]);

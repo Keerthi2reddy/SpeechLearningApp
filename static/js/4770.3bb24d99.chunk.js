@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktherapy_app=self.webpackChunktherapy_app||[]).push([[4770],{4770:(e,p,a)=>{e.exports=a.p+"static/media/30-he.fe69450b5791f58f7ed4.wav"}}]);

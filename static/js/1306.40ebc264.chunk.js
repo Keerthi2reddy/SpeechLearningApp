@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktherapy_app=self.webpackChunktherapy_app||[]).push([[1306],{1306:(a,p,e)=>{a.exports=e.p+"static/media/09-burnt_tip_of_a_wick.fe56e96ca3a53d2d540b.wav"}}]);

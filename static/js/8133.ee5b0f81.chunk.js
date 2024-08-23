@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktherapy_app=self.webpackChunktherapy_app||[]).push([[8133],{8133:(a,e,p)=>{a.exports=p.p+"static/media/20-to_fall.5f3b83ed68dd4ec1740a.wav"}}]);

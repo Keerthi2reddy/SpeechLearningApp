@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktherapy_app=self.webpackChunktherapy_app||[]).push([[203],{203:(p,e,a)=>{p.exports=a.p+"static/media/22-butcher.7638db815361f08580cd.wav"}}]);

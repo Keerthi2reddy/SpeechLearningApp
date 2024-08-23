@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktherapy_app=self.webpackChunktherapy_app||[]).push([[1192],{1192:(p,a,e)=>{p.exports=e.p+"static/media/20-spade.52d88737819d406019c1.wav"}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktherapy_app=self.webpackChunktherapy_app||[]).push([[6574],{6574:(p,a,e)=>{p.exports=e.p+"static/media/parishat.07433a43e1dfde9f8858.mp3"}}]);

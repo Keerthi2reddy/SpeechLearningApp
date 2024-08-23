@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktherapy_app=self.webpackChunktherapy_app||[]).push([[1377],{1377:(e,a,p)=>{e.exports=p.p+"static/media/34-throne.544388ae25344ebf94ac.wav"}}]);
