@@ -4,9 +4,10 @@ import Recordings from "../recordings-list/recordings";
 import useRecorder from "../../hooks/useRecorder";
 
 export default function Speechrecorder({phonemedata,level}) {
+    
     const { recorderState, ...handlers } = useRecorder();
     const { audio } = recorderState;
-    console.log(level);
+    // console.log(level);
 
     return (
         <div className="spr">

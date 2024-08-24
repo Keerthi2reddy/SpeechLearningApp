@@ -1,11 +1,7 @@
 import React, { useState } from 'react';
-import Phoneme from '../../components/phenome/phenome';
-import ProgressComponent from '../../components/progress/progress';
-import Speechrecorder from '../../components/speech-recorder/Speechrecorder';
 import './passage.css';
 import Recorder from "../../components/recorder-controls/recorder.jsx";
 import Recordings from "../../components/recordings-list/recordings";
-import useRecordingsList from "../../hooks/use-recordings-list";
 import useRecorder from "./useRecorder";
 const passage = [
   { name: 'passage',image:'C:\Users\Keerthi\Documents\cogsci\SpeechLearningApp\passage\passage.png', audiofile: '/passage/passage.mp3' },

@@ -3,9 +3,6 @@ import Phoneme from '../../components/phenome/phenome';
 import ProgressComponent from '../../components/progress/progress';
 import Speechrecorder from '../../components/speech-recorder/Speechrecorder';
 import './level2_1.css';
-import useRecordingsList from "../../hooks/use-recordings-list";
-
-import useRecorder from "../../hooks/useRecorder";
 const phonemesData = [
   // /words/{englishword}.mp3
 // { name: 'బలం', audiofile: '/words/generated/balam.mp3' },

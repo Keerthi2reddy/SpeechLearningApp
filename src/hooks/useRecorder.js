@@ -15,8 +15,11 @@ const initialState = {
 export default function useRecorder() {
   const [recorderState, setRecorderState] = useState(initialState);
 
+  const limit = localStorage.getItem('timelimit');
   useEffect(() => {
-    const MAX_RECORDER_TIME = 15;
+    const MAX_RECORDER_TIME = limit*3+1;
+    console.log(limit);
+    console.log(MAX_RECORDER_TIME);
     let recordingInterval = null;
 
     if (recorderState.initRecording && !recorderState.paused) { // Check if recording is not paused
@@ -47,7 +50,7 @@ export default function useRecorder() {
     } else {
       clearInterval(recordingInterval);
     }
-    console.log(recorderState.paused);
+    // console.log(recorderState.paused);
 
     return () => clearInterval(recordingInterval);
   }, [recorderState.initRecording, recorderState.paused]);
@@ -95,13 +98,15 @@ export default function useRecorder() {
   useEffect(() => {
     let resumeTimeout;
     if (recorderState.paused && recorderState.initRecording) {
-      console.log("paused");
+      // console.log("paused");
       if (recorderState.mediaRecorder.state !== "inactive") {
         recorderState.mediaRecorder.pause();
       }// Pause the recording
       // Set a timeout to automatically resume recording after 5 seconds
-      resumeTimeout = setTimeout(() => {
-        console.log("timed out");
+      console.log("Paused at:", new Date().toISOString());
+
+resumeTimeout = setTimeout(() => {
+  console.log("Resumed at:", new Date().toISOString());
 
         if (recorderState.mediaRecorder && recorderState.mediaRecorder.state === "paused") {
           recorderState.mediaRecorder.resume(); // Resume the recording
@@ -110,7 +115,7 @@ export default function useRecorder() {
             paused: !prevState.paused,
           }))
         }
-      }, 5000); // 5 seconds
+      }, 3000); // 5 seconds
     }
 
     // Clean up the timeout when component unmounts or paused state changes
@@ -123,13 +128,16 @@ export default function useRecorder() {
     if (!recorderState.paused) {
       
       // Start the timeout only if the recording is not already paused
-      
+      console.log("Paused at:", new Date().toISOString());
+
       pauseTimeout = setTimeout(() => {
-        console.log("paused");
+        
+  console.log("Resumed at:", new Date().toISOString());
+        // console.log("paused");
         if (!recorderState.paused) {
           setRecorderState(prevState => ({ ...prevState, paused: true }));
         }
-      }, 5000); // 10 seconds
+      }, limit*1000); // 10 seconds
     }
 
     // Clean up the timeout when component unmounts or when the recording is paused

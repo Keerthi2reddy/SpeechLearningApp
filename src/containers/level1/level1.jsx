@@ -3,8 +3,6 @@ import Phoneme from '../../components/phenome/phenome';
 import ProgressComponent from '../../components/progress/progress';
 import Speechrecorder from '../../components/speech-recorder/Speechrecorder';
 import './level1.css';
-import useRecordingsList from "../../hooks/use-recordings-list";
-import useRecorder from "../../hooks/useRecorder";
 const phonemesData = [
 { name: '/i/', audiofile: '/phonetics/ph_i_short.mp3' },
 { name: '/e/', audiofile: '/phonetics/ph_e_short.mp3' },

@@ -5,6 +5,7 @@ import './styles.css';
 function Home() {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [participantId, setParticipantId] = useState('');
+  const [timelimit, settimelimit] = useState('');
   
   const toggleModal = () => {
     setIsModalOpen(!isModalOpen);
@@ -13,11 +14,15 @@ function Home() {
   const handleParticipantIdChange = (event) => {
     setParticipantId(event.target.value);
   };
+  const handletimelimitChange = (event) => {
+    settimelimit(event.target.value);
+  };
 
   const handleSubmit = (event) => {
     event.preventDefault();
     // Save participant ID to localStorage
     localStorage.setItem('participantId', participantId);
+    localStorage.setItem('timelimit', timelimit);
     // Redirect to /therapy
     window.location.href = `/therapy`;
   };
@@ -33,6 +38,10 @@ function Home() {
                 <label>
                   <p>Participant ID:</p>
                   <input type="text" value={participantId} onChange={handleParticipantIdChange} />
+                </label>
+                <label>
+                  <p>Time Limit:</p>
+                  <input type="text" value={timelimit} onChange={handletimelimitChange} />
                 </label>
                 <button className='submit' type="submit">Submit</button>
               </form>

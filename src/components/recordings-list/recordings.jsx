@@ -6,7 +6,7 @@ import "./styles.css";
 export default function Recordings({ audio ,phonemeName, LEVEL}) {
   const { recordings, deleteAudio } = useRecordingsList(audio);
 const ID = localStorage.getItem('participantId');
-console.log(LEVEL);
+// console.log(LEVEL);
   const uploadAudio = async (audio, participantId, day) => {
     try {
       // Fetch the resource from the Blob URL
