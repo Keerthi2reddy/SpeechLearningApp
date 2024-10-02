@@ -64,9 +64,11 @@
   form input{
     padding: 10px 10px;
     margin: 8px 12px;
-    border-radius: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
     font-size: 15px;
   }
+
   .submit{
     background-color: #093188;
     color: white;

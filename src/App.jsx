@@ -7,6 +7,8 @@ import Level2 from './containers/level2/level2';
 import Level2_1 from './containers/level2_1/level2_1';
 import Passage from './containers/passage/passage';
 import NavbarComponent from './components/Navbar/navbar';
+import Account from './components/Account/account';
+// import Signup from './components/SignUp/signup';
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 function App() {
   return (
@@ -14,6 +16,7 @@ function App() {
       <NavbarComponent />
       <Router>
         <Routes>
+          <Route path='account' element={<Account/>}/>
           <Route path="/" element={<Home />} />
           <Route path="/therapy" element={<Therapy />} />
           <Route path="/level1" element={<Level1 />} />

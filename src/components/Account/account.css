@@ -1,0 +1,68 @@
+/* Container */
+.account-container {
+    background-color: #f5f5f5;
+    justify-content: center;
+  }
+  
+  /* Form Container */
+  .account-form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+  }
+  
+  /* Form styling */
+  .account-form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .account-h2 {
+    margin-bottom: 1.5rem;
+    font-size: 1.8rem;
+  }
+  
+  .account-input:focus {
+    outline: none;
+    border-color: #007bff;
+  }
+  
+  /* Button */
+  .account-button {
+    padding: 10px 10px;
+    margin: 8px 12px;
+    border: 1px solid  #007bff;
+    border-radius: 5px;
+    font-size: 15px;
+    background-color: #007bff;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .account-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Toggle Link */
+  .account-p {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+  }
+  
+  .account-span {
+    color: #007bff;
+    cursor: pointer;
+  }
+  
+  .account-span:hover {
+    text-decoration: underline;
+  }
+  

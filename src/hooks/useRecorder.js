@@ -1,11 +1,11 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import { startRecording, saveRecording } from "../handlers/recorder-controls";
 
 const initialState = {
   recordingMinutes: 0,
   recordingSeconds: 0,
   initRecording: false,
-  paused: false, // New state to track whether recording is paused
+  paused: true, // New state to track whether recording is paused
   // restart:true,
   mediaStream: null,
   mediaRecorder: null,
@@ -16,8 +16,11 @@ export default function useRecorder() {
   const [recorderState, setRecorderState] = useState(initialState);
 
   const limit = localStorage.getItem('timelimit');
+  const pauseTimeout = useRef(null);
+  const resumeTimeout = useRef(null);
+
   useEffect(() => {
-    const MAX_RECORDER_TIME = limit*3+1;
+    const MAX_RECORDER_TIME = limit * 3-1;
     console.log(limit);
     console.log(MAX_RECORDER_TIME);
     let recordingInterval = null;
@@ -55,6 +58,7 @@ export default function useRecorder() {
     return () => clearInterval(recordingInterval);
   }, [recorderState.initRecording, recorderState.paused]);
 
+  
   useEffect(() => {
     if (recorderState.mediaStream)
       setRecorderState((prevState) => {
@@ -64,6 +68,7 @@ export default function useRecorder() {
         };
       });
   }, [recorderState.mediaStream]);
+
   useEffect(() => {
     const recorder = recorderState.mediaRecorder;
     let chunks = [];
@@ -96,7 +101,7 @@ export default function useRecorder() {
   }, [recorderState.mediaRecorder]);
 
   useEffect(() => {
-    let resumeTimeout;
+    // let resumeTimeout;
     if (recorderState.paused && recorderState.initRecording) {
       // console.log("paused");
       if (recorderState.mediaRecorder.state !== "inactive") {
@@ -105,8 +110,8 @@ export default function useRecorder() {
       // Set a timeout to automatically resume recording after 5 seconds
       console.log("Paused at:", new Date().toISOString());
 
-resumeTimeout = setTimeout(() => {
-  console.log("Resumed at:", new Date().toISOString());
+      resumeTimeout.current = setTimeout(() => {
+        console.log("Resumed at:", new Date().toISOString());
 
         if (recorderState.mediaRecorder && recorderState.mediaRecorder.state === "paused") {
           recorderState.mediaRecorder.resume(); // Resume the recording
@@ -119,36 +124,43 @@ resumeTimeout = setTimeout(() => {
     }
 
     // Clean up the timeout when component unmounts or paused state changes
-    return () => clearTimeout(resumeTimeout);
+    return () => clearTimeout(resumeTimeout.current);
   }, [recorderState.paused, recorderState.mediaRecorder]);
 
   useEffect(() => {
-    let pauseTimeout;
+    // let pauseTimeout;
 
     if (!recorderState.paused) {
-      
+
       // Start the timeout only if the recording is not already paused
       console.log("Paused at:", new Date().toISOString());
 
-      pauseTimeout = setTimeout(() => {
-        
-  console.log("Resumed at:", new Date().toISOString());
+      pauseTimeout.current = setTimeout(() => {
+
+        console.log("Resumed at:", new Date().toISOString());
         // console.log("paused");
         if (!recorderState.paused) {
           setRecorderState(prevState => ({ ...prevState, paused: true }));
         }
-      }, limit*1000); // 10 seconds
+      }, limit * 1000); // 10 seconds
     }
 
     // Clean up the timeout when component unmounts or when the recording is paused
-    return () => clearTimeout(pauseTimeout);
-  }, [recorderState.paused]);
+    return () => clearTimeout(pauseTimeout.current);
+  }, [recorderState.paused,limit]);
 
-  
+
+  // Cancel recording will now clear the timers and reset the state
+  const cancelRecording = () => {
+    clearTimeout(pauseTimeout.current);
+    clearTimeout(resumeTimeout.current);
+    setRecorderState(initialState);
+  };
+
   return {
     recorderState,
     startRecording: () => startRecording(setRecorderState),
-    cancelRecording: () => setRecorderState(initialState),
+    cancelRecording,
     saveRecording: () => saveRecording(recorderState.mediaRecorder),
     pauseRecording: () => setRecorderState((prevState) => ({
       ...prevState,

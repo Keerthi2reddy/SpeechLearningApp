@@ -11,18 +11,23 @@ const phonemesData = [
   { "name": "బట్ట", "audiofile": "/words/reference/battaa.wav" },
   { "name": "పట్ట", "audiofile": "/words/reference/pattaa.wav" },
   { "name": "అట్ట", "audiofile": "/words/reference/atta.wav" },
+
   { "name": "పాడు", "audiofile": "/words/reference/paadu.wav" },
   { "name": "పాటు", "audiofile": "/words/reference/paatu.wav" },
   { "name": "పావు", "audiofile": "/words/reference/paavu.wav" },
+
   { "name": "తన్ను", "audiofile": "/words/reference/thannu.wav" },
   { "name": "దన్ను", "audiofile": "/words/reference/dannu.wav" },
   { "name": "అన్ను", "audiofile": "/words/reference/annu.wav" },
+
   { "name": "కాటు", "audiofile": "/words/reference/kaatuu.wav" },
   { "name": "గాటు", "audiofile": "/words/reference/gaatuu.wav" },
   { "name": "ఆటు", "audiofile": "/words/reference/aatu.wav" },
+
   { "name": "ఫాలు", "audiofile": "/words/reference/faalu.wav" },
   { "name": "వాలు", "audiofile": "/words/reference/vaalu.wav" },
   { "name": "ఆలు", "audiofile": "/words/reference/aalu.wav" },
+  
   { "name": "హాయి", "audiofile": "/words/reference/haayi.wav" },
   { "name": "ఆయి", "audiofile": "/words/reference/aayi.wav" }
 

@@ -7,6 +7,7 @@ export async function startRecording(setRecorderState) {
         ...prevState,
         initRecording: true,
         mediaStream: stream,
+        paused:false,
       };
     });
   } catch (err) {

@@ -7,6 +7,7 @@ function NavbarComponent() {
       <nav className="navbar">
           <a href="/">Home</a>
           <a href="/therapy">Exercise</a>
+          <a href="/account">Login</a>
       </nav>
     </div>
     </>
